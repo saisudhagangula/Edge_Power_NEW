@@ -1,0 +1,16 @@
+#Main{
+    -fx-background-image : url("Background.png");
+}
+#button{
+    -fx-background-color: linear-gradient(to bottom,#C1A0E0,#3023AE);
+    -fx-background-radius : 30;
+    -fx-font-size : 20;
+
+}
+#lable{
+    -fx-border-color : linear-gradient(to bottom,#AD1DEB,#6E72FC);
+    -fx-background-radius : 30;
+    -fx-border-radius : 30;
+    -fx-border-width : 5;
+
+}

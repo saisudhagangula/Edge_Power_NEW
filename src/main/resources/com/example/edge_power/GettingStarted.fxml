@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="553.0" prefWidth="1230.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox id="Main" layoutX="2.0" layoutY="-2.0" prefHeight="562.0" prefWidth="1230.0" stylesheets="@../../../Style/Home.css">
+         <children>
+            <HBox prefHeight="550.0" prefWidth="1105.0">
+               <children>
+                  <HBox prefHeight="521.0" prefWidth="669.0">
+                     <children>
+                        <AnchorPane prefHeight="550.0" prefWidth="655.0">
+                           <children>
+                              <Label layoutX="21.0" layoutY="38.0" prefHeight="45.0" prefWidth="627.0" text="Build Brains for you'r Chips">
+                                 <font>
+                                    <Font name="System Bold" size="46.0" />
+                                 </font>
+                              </Label>
+                              <Text layoutX="21.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Edge Power applications can get data from various sources, including sensor hardware, public datasets, and data generated through micro-controllers." wrappingWidth="640.0000183105469">
+                                 <font>
+                                    <Font size="27.0" />
+                                 </font>
+                              </Text>
+                              <Text layoutX="14.0" layoutY="278.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Instead of doing all this directly upload your data in the application and we will do that job for you." wrappingWidth="558.4000427246094">
+                                 <font>
+                                    <Font size="27.0" />
+                                 </font>
+                              </Text>
+                              <Label layoutX="59.0" layoutY="402.0" prefHeight="32.0" prefWidth="126.0" text="Data Input">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="269.0" layoutY="402.0" prefHeight="30.0" prefWidth="143.0" text="Trained Model">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="130.0" fitWidth="210.0" layoutY="417.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../Style/can.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="103.0" fitWidth="178.0" layoutX="252.0" layoutY="435.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../Style/teaching.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="118.0" fitWidth="255.0" layoutX="105.0" layoutY="415.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../Style/arrow.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="198.0" fitWidth="251.0" layoutX="400.0" layoutY="347.0" opacity="0.24" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../Style/glow.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="198.0" fitWidth="251.0" layoutX="465.0" layoutY="-5.0" opacity="0.24" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../Style/glow.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="574.0" prefWidth="514.0">
+                     <children>
+                        <AnchorPane prefHeight="550.0" prefWidth="512.0">
+                           <children>
+                              <ImageView fitHeight="518.0" fitWidth="627.0" layoutX="-115.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../Style/info.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                     </children></HBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

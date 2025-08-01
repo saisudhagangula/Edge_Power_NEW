@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="Main" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="1230.0" stylesheets="@../../../Style/Home.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.edge_power.home">
+   <children>
+      <VBox prefHeight="680.0" prefWidth="1230.0">
+         <children>
+            <VBox id="Main" prefHeight="130.0" prefWidth="1230.0">
+               <children>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" stylesheets="@../../../Style/Home.css">
+                     <children>
+                        <JFXButton id="button" layoutX="510.0" layoutY="49.0" onAction="#handleHomeButton" prefHeight="40.0" prefWidth="85.0" stylesheets="@../../../Style/Home.css" text="Home" textFill="WHITE" AnchorPane.bottomAnchor="38.2" AnchorPane.leftAnchor="510.0" AnchorPane.topAnchor="49.0" />
+                        <JFXButton id="button" layoutX="622.0" layoutY="49.0" onAction="#handlehello_viewButton" prefHeight="43.0" prefWidth="177.0" stylesheets="@../../../Style/Home.css" text="Data Collection" textFill="WHITE" AnchorPane.bottomAnchor="38.19999999999999" AnchorPane.topAnchor="49.0" />
+                        <JFXButton id="button" layoutX="828.0" layoutY="49.0" onAction="#handleMLButton" prefHeight="43.0" prefWidth="177.0" stylesheets="@../../../Style/Home.css" text="ML Training" textFill="WHITE" AnchorPane.bottomAnchor="38.19999999999999" AnchorPane.topAnchor="49.0" />
+                        <JFXButton id="button" layoutX="1032.0" layoutY="49.0" onAction="#handleDepButton" prefHeight="43.0" prefWidth="177.0" stylesheets="@../../../Style/Home.css" text="Deployment" textFill="WHITE" AnchorPane.bottomAnchor="38.19999999999999" AnchorPane.topAnchor="49.0" />
+                        <ImageView fitHeight="86.0" fitWidth="150.0" layoutX="20.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../Style/Brand.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="112.0" layoutY="52.0" prefHeight="22.0" prefWidth="86.0" text="Edge Power">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="198.0" fitWidth="251.0" layoutX="-96.0" layoutY="-50.0" opacity="0.24" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../Style/glow.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </VBox>
+            <VBox id="Main" prefHeight="550.0" prefWidth="1230.0" stylesheets="@../../../Style/Home.css">
+               <children>
+                  <AnchorPane fx:id="contentPane" prefHeight="550.0" prefWidth="1339.0" />
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

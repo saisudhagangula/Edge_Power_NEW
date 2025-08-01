@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane id="Main" fx:id="contentPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="553.0" prefWidth="1230.0" stylesheets="@../../../Style/Home.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.edge_power.HelloController">
+   <children>
+      <AnchorPane id="Main" layoutX="-1.0" layoutY="4.0" prefHeight="553.0" prefWidth="1230.0" stylesheets="@../../../Style/Home.css">
+         <children>
+            <ListView id="lable" fx:id="fileListView" cache="true" cacheHint="SPEED" editable="true" layoutX="733.0" layoutY="59.0" onDragExited="#initialize" prefHeight="242.0" prefWidth="358.0" style="-fx-background-radius: 30; -fx-border-radius: 30;">
+               <effect>
+                  <Blend />
+               </effect>
+            </ListView>
+            <JFXButton id="button" fx:id="downloadButton" buttonType="RAISED" layoutX="1031.0" layoutY="375.0" onAction="#handleDownloadButton" prefHeight="43.0" prefWidth="170.0" text="Download Data" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton id="button" fx:id="uploadButton" buttonType="RAISED" layoutX="640.0" layoutY="375.0" onAction="#handleUploadButton" prefHeight="43.0" prefWidth="140.0" text="Upload Data" textFill="#fffbfb">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton id="button" fx:id="deleteButton" buttonType="RAISED" layoutX="847.0" layoutY="375.0" onAction="#handleDeleteButton" prefHeight="43.0" prefWidth="131.0" text="Delete All" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton id="button" fx:id="stopButton" buttonType="RAISED" layoutX="332.0" layoutY="375.0" onAction="#handleStopButton" prefHeight="43.0" prefWidth="91.0" text="Stop" textFill="#fffefe">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton id="button" buttonType="RAISED" layoutX="523.0" layoutY="472.0" onAction="#handleMLButton" prefHeight="43.0" prefWidth="91.0" text="Next" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton id="button" fx:id="startButton" buttonType="RAISED" layoutX="120.0" layoutY="375.0" onAction="#handleStartButton" prefHeight="39.0" prefWidth="82.0" stylesheets="@../../../Style/Home.css" text="Start" textFill="#fffbfb">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+            <TextField id="lable" fx:id="portArea" layoutX="161.0" layoutY="107.0" prefHeight="32.0" prefWidth="263.0" promptText="COM Port" stylesheets="@../../../Style/Home.css">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+            <TextField id="lable" fx:id="baudArea" layoutX="161.0" layoutY="174.0" prefHeight="32.0" prefWidth="263.0" promptText="Bard Rate (9600,115200)" stylesheets="@../../../Style/Home.css">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+            <TextField id="lable" fx:id="labelArea" layoutX="161.0" layoutY="241.0" prefHeight="32.0" prefWidth="263.0" promptText="Lable" stylesheets="@../../../Style/Home.css">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+            <Text layoutX="23.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter COM Port :" wrappingWidth="130.7734375">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="23.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Bard Rate :" wrappingWidth="130.7734375">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="23.0" layoutY="266.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Lable        :" wrappingWidth="130.7734375">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <Label fx:id="fileCountLabel" layoutX="802.0" layoutY="323.0" prefHeight="18.0" prefWidth="219.0" />
+         </children></AnchorPane>
+   </children>
+</Pane>
