@@ -53,7 +53,7 @@ Before running Edge Power, make sure you have the following installed:
 
     ```bash
     https://github.com/saisudhagangula/Edge_Power_NEW.git
-    cd Edge-Power
+    cd Edge_Power
     ```
 
 2. Install the required dependencies:
