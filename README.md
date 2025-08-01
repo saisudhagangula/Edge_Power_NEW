@@ -52,7 +52,7 @@ Before running Edge Power, make sure you have the following installed:
 1. Clone the repository:
 
     ```bash
-    https://github.com/Sidharthareddy99/Edge_Power.git
+    https://github.com/saisudhagangula/Edge_Power_NEW.git
     cd Edge-Power
     ```
 
